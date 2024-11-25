@@ -1,4 +1,4 @@
-class Moeda{
+class Currency{
     private code:string;
     private value:number;
 
@@ -31,10 +31,10 @@ class Moeda{
 
 }
 
-const real = new Moeda("BRL", 1);
-const americanDolar = new Moeda("US", 5.81);
-const euro = new Moeda("EUR", 6.10);
-const libraEsterlina = new Moeda("GBP", 7.30);
+const real = new Currency("BRL", 1);
+const americanDolar = new Currency("US", 5.81);
+const euro = new Currency("EUR", 6.10);
+const libraEsterlina = new Currency("GBP", 7.30);
 
 
 
